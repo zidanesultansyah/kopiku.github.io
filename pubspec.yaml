@@ -48,6 +48,9 @@ flutter:
   assets:
     - assets/americano.jpg
     - assets/cappuccino.jpg
+    - assets/cappucinocingcau.jpg
+    - assets/caramelmacchiato.jpg
+    - assets/coklat.jpg
     - assets/desain_detail.png
     - assets/desain_homePage.png
     - assets/espreso.jpg
@@ -55,6 +58,11 @@ flutter:
     - assets/header2.jpeg
     - assets/header3.jpeg
     - assets/Macchiato.jpg
+    - assets/Greentea.jpg
+    - assets/kopifrappe.jpg
+    - assets/kopilatte.jpg
+    - assets/mojito.jpeg
+    - assets/Redvelvet.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
