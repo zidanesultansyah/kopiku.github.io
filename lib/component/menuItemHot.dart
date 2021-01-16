@@ -1,11 +1,11 @@
-import 'package:kopiku_kelompok11/model/coffeeModel.dart';
+import 'package:kopiku_kelompok11/model/coffeeModelHot.dart';
 import 'package:kopiku_kelompok11/detailPage.dart';
 import 'package:flutter/material.dart';
 
-class MenuItemCard extends StatelessWidget {
-  final int index;
+class MenuItemHot extends StatelessWidget {
+  final int index1;
 
-  MenuItemCard({this.index});
+  MenuItemHot({this.index1});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class MenuItemCard extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                           builder: (context) => DetailPage(
-                                index: index,
+                                index: index1,
                               )));
                 },
                 child: Row(
@@ -32,7 +32,7 @@ class MenuItemCard extends StatelessWidget {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
                         child: Image.asset(
-                          menu[index].image,
+                          menu[index1].image,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -47,12 +47,12 @@ class MenuItemCard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Text(
-                            menu[index].name,
+                            menu[index1].name,
                             style: TextStyle(
                                 fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                           Text(
-                            menu[index].shortDesc,
+                            menu[index1].shortDesc,
                             style: TextStyle(
                                 fontSize: 16,
                                 color: Colors.grey[500],
@@ -62,7 +62,7 @@ class MenuItemCard extends StatelessWidget {
                             height: 20,
                           ),
                           Text(
-                            "Rp. " + menu[index].price.toString(),
+                            "Rp. " + menu[index1].price.toString(),
                             style: TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 18),
                           )
@@ -87,3 +87,4 @@ class MenuItemCard extends StatelessWidget {
     );
   }
 }
+
