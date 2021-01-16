@@ -4,9 +4,11 @@ class ColdCoffeePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
-      child: Center(
-        child: Text("Cold Coffee"),
+      child: ListView.builder(
+        itemCount: menu2.length,
+        itemBuilder: (context, int key) {
+          return MenuItemCold(index2: key);
+        },
       ),
     );
   }
