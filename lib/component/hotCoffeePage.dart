@@ -1,7 +1,6 @@
-import 'package:kopiku_kelompok11/model/coffeeModel.dart';
+import 'package:kopiku_kelompok11/model/coffeeModelHot.dart';
 import 'package:flutter/material.dart';
-
-import 'menuItemcard.dart';
+import 'menuItemHot.dart';
 
 class HotCoffeePage extends StatelessWidget {
   @override
@@ -10,7 +9,7 @@ class HotCoffeePage extends StatelessWidget {
       child: ListView.builder(
         itemCount: menu.length,
         itemBuilder: (context, int key) {
-          return MenuItemCard(index: key);
+          return MenuItemHot(index1: key);
         },
       ),
     );
