@@ -1,3 +1,5 @@
+import 'package:kopiku_kelompok11/component/menuItemCold.dart';
+import 'package:kopiku_kelompok11/model/coffeModelCold.dart';
 import 'package:flutter/material.dart';
 
 class ColdCoffeePage extends StatelessWidget {
