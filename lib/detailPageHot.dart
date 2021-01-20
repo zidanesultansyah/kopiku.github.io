@@ -1,4 +1,4 @@
-import 'package:kopiku_kelompok11/model/coffeeModel.dart';
+import 'package:kopiku_kelompok11/model/inputgambar_HotCoffee.dart';
 import 'package:flutter/material.dart';
 
 class DetailPage extends StatefulWidget {
