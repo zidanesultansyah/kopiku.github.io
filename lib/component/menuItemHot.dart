@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import 'package:kopiku_kelompok11/model/inputgambar_HotCoffee.dart';
 import 'package:kopiku_kelompok11/detailPageHot.dart';
+=======
+import 'package:kopiku_kelompok11/model/coffeeModelHot.dart';
+import 'package:kopiku_kelompok11/detailPage.dart';
+>>>>>>> 1c8781166a55d96f0c323e5d2720ad3f85397b7c
 import 'package:flutter/material.dart';
 
 class MenuItemHot extends StatelessWidget {
@@ -72,6 +77,17 @@ class MenuItemHot extends StatelessWidget {
                   ],
                 ),
               ),
+<<<<<<< HEAD
+=======
+              IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.add_circle,
+                  color: Colors.brown[600],
+                  size: 36,
+                ),
+              )
+>>>>>>> 1c8781166a55d96f0c323e5d2720ad3f85397b7c
             ],
           ),
         ),
@@ -79,3 +95,7 @@ class MenuItemHot extends StatelessWidget {
     );
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1c8781166a55d96f0c323e5d2720ad3f85397b7c

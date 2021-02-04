@@ -1,6 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:kopiku_kelompok11/loginPage.dart';
+=======
+import 'package:kopiku_kelompok11/homePage.dart';
+>>>>>>> 1c8781166a55d96f0c323e5d2720ad3f85397b7c
 // import 'package:flutter_svg/flutter_svg.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -21,7 +25,11 @@ class _SplashScreenState extends State<SplashScreen> {
     return Timer(duration, (){
       Navigator.push(
         context,
+<<<<<<< HEAD
         MaterialPageRoute(builder: (context) => LoginPage ()
+=======
+        MaterialPageRoute(builder: (context) => HomePage ()
+>>>>>>> 1c8781166a55d96f0c323e5d2720ad3f85397b7c
         )
       );
     });

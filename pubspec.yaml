@@ -31,10 +31,13 @@ dependencies:
   smooth_star_rating: ^1.1.1
   flutter_svg: ^0.18.0 # help us to use SVG in our app
   provider: ^4.3.1 # for State management
+<<<<<<< HEAD
   cloud_firestore: ^0.16.0
   firebase_auth: ^0.20.0+1
   firebase_core: ^0.7.0
 
+=======
+>>>>>>> 1c8781166a55d96f0c323e5d2720ad3f85397b7c
  
 
 dev_dependencies:
