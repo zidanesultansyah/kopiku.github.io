@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583410782965",
+    "project_id": "kopiku-a89d4",
+    "storage_bucket": "kopiku-a89d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583410782965:android:5958498daa206550592bbc",
+        "android_client_info": {
+          "package_name": "com.example.kopiku_kelompok11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583410782965-os5ejpacr0cfrijs36mql145u7f1k67b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB28LTXJiJMhsyRMpPzCOhtMNru5L0_Wyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583410782965-os5ejpacr0cfrijs36mql145u7f1k67b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
